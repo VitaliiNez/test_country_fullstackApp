@@ -12,15 +12,6 @@ This project is a web-based full-stack application that allows users to view inf
 - **express** A minimal and flexible Node.js web application framework used for handling the backend of the application, managing routes, middleware, and server-side logic.
 - **CSS:** Used for styling the application to create a visually appealing user interface.
 
-## How to Use the Application
-
-1. **Start the Application:** Open the app in a web browser. You will see an input field to add new tasks and a list of existing tasks.
-2. **Add a Task:** Enter a task in the input field and press Enter. The task will be sent to the server and added to the list. If the input is empty, an error message will be displayed for 3 seconds. If there is a network issue, an error message will be displayed indicating that the task could not be added.
-3. **Remove a Task:** Click the "Remove" button next to a task to delete it from the list and the server.
-4. **Edit a Task:** Double-click on a task to enable editing. After making changes, press Enter to save. If the input is empty, the task will be automatically deleted. The updated or deleted task will be sent to the server. If there is a network issue, an error message will be displayed indicating that the task could not be updated or deleted.
-5. **Filter Tasks:** Use the filter options (Completed, Active, All) to view tasks based on their completion status.
-6. **Error Handling:** Error messages are shown for various conditions such as empty input, network issues while adding, removing, or updating tasks. These messages disappear automatically after 3 seconds.
-
 ## Running the Project Locally
 
 To run the app project locally, follow these steps:
