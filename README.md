@@ -25,7 +25,7 @@ To run the app project locally, follow these steps:
    `node -v`
    If necessary, use a version manager like [nvm](https://github.com/nvm-sh/nvm/) to install and switch to the correct version.
 4. **Install dependencies for the server:** Navigate to the server directory:
-   `cd server`
+   `cd backend`
 5. **Then install the dependencies:**
    `npm install`
 6. **Start the server**: In the same directory, run the server:
