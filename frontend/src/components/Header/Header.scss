@@ -1,0 +1,35 @@
+.header {
+  height: 60px;
+  background-color: #649eb4;
+  display: flex;
+  align-items: center;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__button {
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #4489a4;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #4489a4;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+      background-color: #649eb4;
+    }
+  }
+}
+.logo {
+  font-weight: 700;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+  &:hover {
+    color: #ffffff98;
+  }
+}

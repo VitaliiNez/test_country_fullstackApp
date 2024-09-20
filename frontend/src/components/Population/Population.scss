@@ -1,0 +1,18 @@
+.population {
+  &__list {
+    padding: 10px;
+    column-count: 4;
+    font-size: 18px;
+    background-color: #f4f4f4;
+    @media (max-width: 1024px) {
+      column-count: 3;
+    }
+    @media (max-width: 767px) {
+      column-count: 2;
+    }
+  }
+  &__heading {
+    margin: 0;
+    font-size: 28px;
+  }
+}
